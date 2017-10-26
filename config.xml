@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.h4ckademy.camera.1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Web Page</name>
+    <description>
+        Web
+    </description>
+    <author email="havanero@gmail.com">
+        havanero
+    </author>
+    <content src="index.html" />
+    <access origin="*" />    
+    <plugin name="cordova-plugin-whitelist"/>
+    <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <access origin="*" />
+    <allow-navigation href="*" />
+</widget>
